@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Videos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+      <div class="menu">
+        <img class="claro-logo" src="assets/images/logo-claro-sports.png" alt="">
+        <img class="sochi-logo" src="assets/images/logo-sochi.png" alt="">
+      </div>  
+    </header>
+
+    <div class="container" style="background-image:url('assets/images/background.jpg')">
+      <div id="video-container">
+        <div id="contador">Faltan:</div>
+          <div id="video-container">
+            <iframe id="main-video" width="560" height="315" src="https://www.youtube.com/embed/mAinJyxqrBY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+      </div>
+    </div>
+
+    <section class="videos-section">
+      <h2 class="claro-titulo">CLARO SPORTS EN SOCHI 2014</h2>
+      <div class="container-video">
+        <div class="video-button video1" onclick="cambiarVideo('omA-Pn4sRwM')">
+          <span class="text-btn">Video 1</span>
+        </div>
+        <div class="video-button video2" onclick="cambiarVideo('jHNwPf0Lc_8')">
+          <span class="text-btn">Video 2</span>
+        </div>
+        <div class="video-button video3" onclick="cambiarVideo('sMagucDUueY')">
+          <span class="text-btn">Video 3</span>
+        </div>
+        <div class="video-button video4" onclick="cambiarVideo('Ig3gJ3EzDjU')">
+          <span class="text-btn">Video 4</span>
+        </div>
+      </div>  
+    </section>
+    
+    <footer>
+      <p class="aviso-priv">aviso de privacidad</p>
+      <img src="assets/images/logo-sochi.png" alt="">
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
